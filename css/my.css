@@ -56,3 +56,11 @@
         transform: translate(0, 0.5px) rotate(1.5deg);
     }
 }
+*{
+    cursor: url("/medias/shubiao.ico"),auto!important;
+}
+:active{
+    cursor: url("/medias/shubiao.ico"),auto!important;
+}
+
+
