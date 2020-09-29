@@ -162,8 +162,8 @@
     };
     loaded();
 })()
- </script><meta name="generator" content="Hexo 5.2.0"><link rel="alternate" href="/atom.xml" title="喃灬疯" type="application/atom+xml">
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+ </script><meta name="generator" content="Hexo 5.2.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"><link rel="alternate" href="/atom.xml" title="喃灬疯" type="application/atom+xml">
+</head>
 
 
 
@@ -615,7 +615,7 @@
                         404
                     </div>
                     <div class="description center-align">
-                        <%= page.description %>
+                        Oops～，我崩溃了！找不到你想要的页面了
                     </div>
                 </div>
             </div>
@@ -623,10 +623,12 @@
     </div>
 </div>
 
-<script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    $('.bg-cover').css('background-image', 'url(https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/medias/banner/' + new Date().getDay() + '.jpg)');
-</script>
+
+    <script>
+        // 每天切换 banner 图.  Switch banner image every day.
+        var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+        $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    </script>
 
 
 

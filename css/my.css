@@ -62,5 +62,13 @@
 :active{
     cursor: url("/medias/shubiao.ico"),auto!important;
 }
+@font-face{
+    font-family: 'myFont';
+    src: url('../font/myFont.ttf');
+}
+
+body{
+    font-family: '庞门正道标题体';
+}
 
 
