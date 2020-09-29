@@ -115,6 +115,14 @@ $(function () {
         }
     };
     articleInit();
+<div class="brand-logo">
+    <a href="<%- url_for() %>" class="waves-effect waves-light">
+         <% if (theme.logo !== undefined && theme.logo.length > 0) { %>
+         <img src="<%= theme.logo %>" class="logo-img" alt="LOGO">
+         <% } %>
+         <span class="logo-span"><%- config.title %></span>
+    </a>
+</div>
 
     $('.modal').modal();
 
