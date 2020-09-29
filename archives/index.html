@@ -606,17 +606,14 @@
     <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
         <div class="brand">
             <div class="title center-align">
-                 
-                    
-                 
-        </div>
-
-
-
+                
+                    归档
+                
+            </div>
 
             <div class="description center-align">
                 
-                    专注于Web,分享生活,分享知识
+                专注于Web,分享生活,分享知识
                 
             </div>
         </div>
@@ -626,8 +623,7 @@
 
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
 </script>
 
 

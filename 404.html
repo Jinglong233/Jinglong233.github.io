@@ -615,7 +615,7 @@
                         404
                     </div>
                     <div class="description center-align">
-                        <%= page.description %>
+                        Oops～，我崩溃了！找不到你想要的页面了
                     </div>
                 </div>
             </div>
@@ -623,10 +623,12 @@
     </div>
 </div>
 
-<script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    $('.bg-cover').css('background-image', 'url(https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/medias/banner/' + new Date().getDay() + '.jpg)');
-</script>
+
+    <script>
+        // 每天切换 banner 图.  Switch banner image every day.
+        var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+        $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    </script>
 
 
 
