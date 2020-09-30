@@ -3,11 +3,11 @@
   <title>喃灬疯</title>
   
   <subtitle>喃灬疯</subtitle>
-  <link href="https://jinglong233.gitee.io/blog/atom.xml" rel="self"/>
+  <link href="https://jinglong233.gitee.io/newblog/atom.xml" rel="self"/>
   
-  <link href="https://jinglong233.gitee.io/blog/"/>
+  <link href="https://jinglong233.gitee.io/newblog/"/>
   <updated>2020-09-28T02:28:36.938Z</updated>
-  <id>https://jinglong233.gitee.io/blog/</id>
+  <id>https://jinglong233.gitee.io/newblog/</id>
   
   <author>
     <name>Jinglong</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://jinglong233.gitee.io/blog/2020/09/28/hello-world/"/>
-    <id>https://jinglong233.gitee.io/blog/2020/09/28/hello-world/</id>
+    <link href="https://jinglong233.gitee.io/newblog/2020/09/28/hello-world/"/>
+    <id>https://jinglong233.gitee.io/newblog/2020/09/28/hello-world/</id>
     <published>2020-09-28T02:28:36.938Z</published>
     <updated>2020-09-28T02:28:36.938Z</updated>
     
