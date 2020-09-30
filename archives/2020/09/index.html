@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="归档: 2020/9, HTML,CSS,JavaScript,JQuery,React,Vue.js等">
-    <meta name="description" content="正在加载今日诗词....">
+    <meta name="description" content="专注于Web,分享生活,分享知识">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -28,9 +28,6 @@
     <link rel="stylesheet" type="text/css" href="/newblog/css/my.css">
 
     <script src="/newblog/libs/jquery/jquery.min.js"></script>
-    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-
-
 
 <style type="text/css" lang="css">
     #loading-container{
@@ -176,17 +173,18 @@
          <div></div> 
          <div></div>
      </div>
- </div><body> 
-  
+ </div><body>
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper container">
             <div class="brand-logo">
                 <a href="/newblog/" class="waves-effect waves-light">
-                    
-                    <img src="/newblog/medias/logo.png" class="logo-img" alt="LOGO">
-                    
-                    <span class="logo-span">喃灬疯</span>
+                    <div>
+                        
+                        <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                        
+                        <span class="logo-span">喃灬疯</span>
+                    </div>
                 </a>
             </div>
             
@@ -207,54 +205,33 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/" class="waves-effect waves-light">
-
+    <a href="/newblog/tags" class="waves-effect waves-light">
       
-      <i class="fas fa-sitemap" style="zoom: 0.6;"></i>
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
       
-      <span>统计</span>
-      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+      <span>标签</span>
     </a>
-    <ul class="sub-nav menus_item_child ">
-      
-      <li>
-        <a href="/newblog/categories">
-          
-          <i class="fas fa-bookmark" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>分类</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/newblog/tags">
-          
-          <i class="fas fa-tags" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>标签</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/newblog/archives">
-          
-          <i class="fas fa-archive" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>归档</span>
-        </a>
-      </li>
-      
-    </ul>
     
   </li>
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/newblog/navigate" class="waves-effect waves-light">
+    <a href="/newblog/categories" class="waves-effect waves-light">
       
-      <i class="fas fa-location-arrow" style="zoom: 0.6;"></i>
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
       
-      <span>导航</span>
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/newblog/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
     </a>
     
   </li>
@@ -383,56 +360,33 @@
         
         <li class="m-nav-item">
 	  
-		<a href="javascript:;">
+		<a href="/newblog/tags" class="waves-effect waves-light">
 			
-				<i class="fa-fw fas fa-sitemap"></i>
+			    <i class="fa-fw fas fa-tags"></i>
 			
-			统计
-			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+			标签
 		</a>
-            <ul  style="background:  ;" >
-              
-                <li>
-
-                  <a href="/newblog/categories " style="margin-left:75px">
-				  
-				   <i class="fa fas fa-bookmark" style="position: absolute;left:50px" ></i>
-			      
-		          <span>分类</span>
-                  </a>
-                </li>
-              
-                <li>
-
-                  <a href="/newblog/tags " style="margin-left:75px">
-				  
-				   <i class="fa fas fa-tags" style="position: absolute;left:50px" ></i>
-			      
-		          <span>标签</span>
-                  </a>
-                </li>
-              
-                <li>
-
-                  <a href="/newblog/archives " style="margin-left:75px">
-				  
-				   <i class="fa fas fa-archive" style="position: absolute;left:50px" ></i>
-			      
-		          <span>归档</span>
-                  </a>
-                </li>
-              
-            </ul>
           
         </li>
         
         <li class="m-nav-item">
 	  
-		<a href="/newblog/navigate" class="waves-effect waves-light">
+		<a href="/newblog/categories" class="waves-effect waves-light">
 			
-			    <i class="fa-fw fas fa-location-arrow"></i>
+			    <i class="fa-fw fas fa-bookmark"></i>
 			
-			导航
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/newblog/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
 		</a>
           
         </li>
@@ -596,6 +550,7 @@
     </svg>
 </a>
         
+        <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
     </nav>
 
 </header>
@@ -606,14 +561,18 @@
     <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
         <div class="brand">
             <div class="title center-align">
-                
-                    归档
-                
+                 
+                    
+                 
             </div>
+
+
+
 
             <div class="description center-align">
                 
-                专注于Web,分享生活,分享知识
+                    <span id="jinrishici-sentence">正在加载今日诗词....</span>
+
                 
             </div>
         </div>
@@ -623,7 +582,8 @@
 
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
+    var bannerUrl = "/newblog/medias/banner/" + new Date().getMinutes() + '.jpg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
 
@@ -887,13 +847,17 @@
 
 
 
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2496232853" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 2496232853" data-position="top" data-delay="50">
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1181062873" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
         <i class="fab fa-qq"></i>
     </a>
 
 
 
 
+
+    <a href="[object Object]" class="tooltipped" target="_blank" data-tooltip="关注我的知乎: [object Object]" data-position="top" data-delay="50">
+        <i class="fab fa-zhihu1">知</i>
+    </a>
 
 
 
@@ -981,12 +945,12 @@ $(function () {
     <script src="/newblog/libs/instantpage/instantpage.js" type="module"></script>
     
     <script type="text/javascript">
-        var OriginTitile=document.title,st;
-        document.addEventListener("visibilitychange",function(){
-            document.hidden?(document.title="ヽ(●-`Д´-)ノ你要玩捉迷藏嘛",    clearTimeout(st)):(document.title="(Ő∀Ő3)ノ好哦！", st=setTimeout(function(){document.title=OriginTitile},3e3))
+    var OriginTitile=document.title,st;
+    document.addEventListener("visibilitychange",function(){
+        document.hidden?(document.title="ヽ(●-`Д´-)ノ你要玩捉迷藏嘛",clearTimeout(st)):(document.title="(Ő∀Ő3)ノ好哦！",st=setTimeout(function(){document.title=OriginTitile},3e3))
     })
-
     </script>
+    <script src="/js/cursor.js"></script>
     <!--动态线条背景-->
     <script type="text/javascript"
     color="122 103 238" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
@@ -1001,7 +965,7 @@ $(function () {
         document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>');
     }
     </script>
-    <script src="/js/cursor.js"></script>
+
 
 
 

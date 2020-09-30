@@ -57,18 +57,9 @@
     }
 }
 *{
-    cursor: url("/medias/shubiao.ico"),auto!important;
+    cursor: url("/medias/cursor1.ico"),auto!important;
 }
 :active{
-    cursor: url("/medias/shubiao.ico"),auto!important;
+    cursor: url("/medias/cursor2.ico"),auto!important;
 }
-@font-face{
-    font-family: 'myFont';
-    src: url('../font/myFont.ttf');
-}
-
-body{
-    font-family: 'myFont';
-}
-
 
