@@ -28,7 +28,15 @@
     <link rel="stylesheet" type="text/css" href="/blog/css/my.css">
 
     <script src="/blog/libs/jquery/jquery.min.js"></script>
-
+    
+        <script type="text/javascript">
+        //只在桌面版网页启用特效
+        var windowWidth = $(window).width();
+        if (windowWidth > 768) {
+            document.write('<script type="text/javascript" src="/js/sakura.js"></script>');
+        }
+        </script>
+    
 <style type="text/css" lang="css">
     #loading-container{
         position: fixed;
@@ -159,8 +167,8 @@
     };
     loaded();
 })()
- </script><meta name="generator" content="Hexo 5.2.0"><link rel="alternate" href="/blog/atom.xml" title="喃灬疯" type="application/atom+xml">
-<link rel="stylesheet" href="/blog/css/prism-tomorrow.css" type="text/css"></head>
+ </script><meta name="generator" content="Hexo 5.2.0"><link rel="stylesheet" href="/blog/css/prism-tomorrow.css" type="text/css"><link rel="alternate" href="/blog/atom.xml" title="喃灬疯" type="application/atom+xml">
+</head>
 
 
 
