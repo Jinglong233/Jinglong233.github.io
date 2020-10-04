@@ -62,4 +62,12 @@
 :active{
     cursor: url("/medias/shubiao.ico"),auto!important;
 }
+@font-face{
+    font-family: 'myFont';
+    src: url('../font/江西拙楷.ttf');
+}
+
+body{
+    font-family: 'myFont';
+}
 
